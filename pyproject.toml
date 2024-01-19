@@ -1,0 +1,19 @@
+[project]
+name = "iec_61162"
+version = "0.1.0"
+description = "A python package implementing parts of the IEC 61162 series of standards: 'Maritime Navigation and Radiocommunication Equipment and Systems - Digital Interfaces'."
+authors = [
+    {name = "Jan Safar", email = "jan.safar@gla-rad.org"},
+]
+dependencies = []
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "\u0016Apache-2.0"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = "true"
