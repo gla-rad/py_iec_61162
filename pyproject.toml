@@ -5,7 +5,9 @@ description = "A python package implementing parts of the IEC 61162 series of st
 authors = [
     {name = "Jan Safar", email = "jan.safar@gla-rad.org"},
 ]
-dependencies = []
+dependencies = [
+    "bitstring>=4.1.4",
+]
 requires-python = ">=3.11"
 readme = "README.md"
 license = {text = "\u0016Apache-2.0"}
@@ -17,3 +19,8 @@ build-backend = "pdm.backend"
 
 [tool.pdm]
 distribution = "true"
+
+[tool.pdm.dev-dependencies]
+spyder = [
+    "spyder-kernels==2.5.*",
+]
