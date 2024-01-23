@@ -3,7 +3,7 @@
 IEC 61162-1 Sentence Module.
 
 This module contains classes and function for representing, generating [and
-parsing presenation interface sentences compliant with the IEC 61162-1:2016
+parsing] presenation interface sentences compliant with the IEC 61162-1:2016
 standard.
 
 Created on Thu Jan 11 16:17:08 2018
