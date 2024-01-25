@@ -24,3 +24,6 @@ distribution = "true"
 spyder = [
     "spyder-kernels==2.5.*",
 ]
+testing = [
+    "pytest>=7.4.4",
+]

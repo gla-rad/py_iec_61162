@@ -4,8 +4,8 @@
 
 The IEC 61162 Python Package implements parts of the IEC 61162 series of standards, 'Maritime Navigation and Radiocommunication Equipment and Systems - Digital Interfaces'. Currently, support is included for the following parts:
 
-* Part 1: Single talker and multiple listeners; and
-* Part 450: Multiple talkers and multiple listeners - Ethernet interconnection.
+* Part 1, 'Single talker and multiple listeners'; and
+* Part 450, 'Multiple talkers and multiple listeners - Ethernet interconnection'.
 
 The package has been developed using Python v.3.11.1.
 
@@ -39,7 +39,7 @@ For examples of usage, see the source code in this repository and the repositori
 
 #### Module: `sentences.py`
 
-This module contains classes and function for representing, generating and, in the future, parsing presenation interface sentences compliant with the IEC 61162-1:2016 standard.
+This module contains classes and functions for representing, generating and, in the future, parsing presenation interface sentences compliant with the IEC 61162-1:2016 standard.
 
 Currently, support has been implemented for the following sentence formatters:
 * BBM, 'AIS binary broadcast message'; and
