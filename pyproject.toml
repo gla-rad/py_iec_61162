@@ -1,7 +1,7 @@
 [project]
 name = "iec_61162"
-version = "0.1.0"
-description = "A python package implementing parts of the IEC 61162 series of standards: 'Maritime Navigation and Radiocommunication Equipment and Systems - Digital Interfaces'."
+version = "0.2.0"
+description = "A python package that implements parts of the IEC 61162 series of standards, 'Maritime Navigation and Radiocommunication Equipment and Systems - Digital Interfaces'."
 authors = [
     {name = "Jan Safar", email = "jan.safar@gla-rad.org"},
 ]

@@ -15,7 +15,7 @@ The package has been developed using Python v.3.11.1.
 
 1. Clone the GRAD `py_iec_61162` repository.
     ```
-    git clone https://github.com/jan-safar/py_iec_61162.git
+    git clone https://github.com/gla-rad/py_iec_61162.git
     ```
 
 1. Navigate to the local repository.
@@ -60,7 +60,7 @@ We welcome contributions! If you wish to contribute to this project, please foll
 
 1. Fork the repository and create a new branch.
 1. Clone your repository to your local machine.
-    
+
     ```
     git clone <your_repository_address>
     cd py_iec_61162
@@ -68,8 +68,8 @@ We welcome contributions! If you wish to contribute to this project, please foll
 1. Install the package in *development mode* using PDM.
     ```
     pdm sync --dev
-    ```    
-    
+    ```
+
     Note: The development installation includes dependencies for the [Spyder IDE](https://www.spyder-ide.org/), which may not be necessary if you are using a different IDE.
 1. Make your changes and test thoroughly.
 1. Submit a pull request with a clear description of your changes.
@@ -88,16 +88,16 @@ This project is licensed under the Apache 2.0 License - see the [LICENSE](./LICE
 
 Email: Jan.Safar@gla-rad.org
 
-Issue Tracker: [GitHub Issues](https://github.com/jan-safar/py_iec_61162/issues)
+Issue Tracker: [GitHub Issues](https://github.com/gla-rad/py_iec_61162/issues)
 
 ## Related Projects
 
 ### Python
 
-* [Rec. ITU-R M.1371 package](https://github.com/jan-safar/py_rec_itu_r_m_1371.git)
-* [IEC 62320 package](https://github.com/jan-safar/py_iec_62320.git)
-* [IEC PAS 63343 package](https://github.com/jan-safar/py_iec_pas_63343.git)
-* [VDES1000 package](https://github.com/jan-safar/py_vdes1000.git)
+* [Rec. ITU-R M.1371 package](https://github.com/gla-rad/py_rec_itu_r_m_1371.git)
+* [IEC 62320 package](https://github.com/gla-rad/py_iec_62320.git)
+* [IEC PAS 63343 package](https://github.com/gla-rad/py_iec_pas_63343.git)
+* [VDES1000 package](https://github.com/gla-rad/py_vdes1000.git)
 
 ### Java
 
