@@ -101,4 +101,4 @@ Issue Tracker: [GitHub Issues](https://github.com/gla-rad/py_iec_61162/issues)
 
 ### Java
 
-* [VDES1000 Library](https://github.com/gla-rad/VDES1000Lib) - a Java port of the VDES1000 package.
+* VDES1000 Library - a Java port of this package, used within the GRAD [e-navigation service framework](https://github.com/orgs/gla-rad/repositories?q=enav) (source code is not yet publicly available).
