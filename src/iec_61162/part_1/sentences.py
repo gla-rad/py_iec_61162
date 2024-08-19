@@ -244,6 +244,42 @@ class VDMSentence:
         return s
 
 
+class QSentence:
+    """
+    Q Sentence: IEC 61162-1 query sentence.
+
+    """
+    query_char = "Q"
+
+    def __init__(
+            self,
+            src_talker_id,
+            dest_talker_id,
+            formatter):
+        self.src_talker_id = src_talker_id
+        self.dest_talker_id = dest_talker_id
+        self.formatter = formatter
+
+    @property
+    def string(self):
+        """
+        Returns
+        -------
+        s : str
+            Sentence string, formatted as per IEC 61162-1.
+
+        """
+        s = "${:s}{:s}{:s},{:s}".format(
+            self.src_talker_id,
+            self.dest_talker_id,
+            self.query_char,
+            self.formatter)
+
+        checksum = iec_checksum(s)
+        s += "*" + "{:>02X}".format(checksum) + "\r\n"
+
+        return s
+
 # =============================================================================
 # %% Sentence Generation
 # =============================================================================
@@ -482,6 +518,13 @@ if __name__=='__main__':
         n_fill_bits=5)
 
     print(bbm_sentence.string)
+
+    q_sentence = QSentence(
+        src_talker_id="AI",
+        dest_talker_id="AB",
+        formatter="BCG")
+
+    print(q_sentence.string)
 
     # Sample data
     asm_payload_bs = BitStream("0x123456789ABCDEF"*15)
