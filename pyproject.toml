@@ -1,6 +1,6 @@
 [project]
 name = "iec_61162"
-version = "0.2.0"
+version = "0.2.1"
 description = "A python package that implements parts of the IEC 61162 series of standards, 'Maritime Navigation and Radiocommunication Equipment and Systems - Digital Interfaces'."
 authors = [
     {name = "Jan Safar", email = "jan.safar@gla-rad.org"},
@@ -21,9 +21,6 @@ build-backend = "pdm.backend"
 distribution = "true"
 
 [tool.pdm.dev-dependencies]
-spyder = [
-    "spyder-kernels==2.5.*",
-]
 testing = [
     "pytest>=7.4.4",
 ]
